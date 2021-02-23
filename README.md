@@ -1,0 +1,2 @@
+# TapTapCommentCrawler
+此仓库包括了TapTap厂商评论和游戏评论的Python爬虫
