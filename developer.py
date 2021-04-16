@@ -16,7 +16,6 @@ def get_page(url, headers):
     headers = headers
     r = requests.get(url, headers)
     soup = BeautifulSoup(r.text, "lxml")
-    # file = open("test1.TXT", 'r',encoding='utf-8')
     for li in soup.find_all(name='li', class_="taptap-review-item collapse in"):
         user_name = li['data-user']
         review_id = str(li['id'])[7:]
