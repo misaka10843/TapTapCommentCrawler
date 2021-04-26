@@ -22,7 +22,7 @@ data_list = []
 
 def start_spider():
     page = 0
-    while < 100:
+    while < 100: #这里的100可以输入你想爬取的页数
         time.sleep(round(random.uniform(0.5, 1.5), 1))
         url = 'https://api.taptapdada.com/review/v1/by-app?limit=10&app_id=185982' \ #185982可改成你需要爬的id
               '&X-UA=V%3D1%26PN%3DTapTap%26VN_CODE%3D551%26LOC%3DCN%26LANG%3Dzh_CN%26CH%3Dtencent%26' \
