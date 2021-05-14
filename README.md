@@ -17,6 +17,7 @@ game.py是爬取游戏评论
 修复了game.py无法自定义页数的问题（虽然没有测试），如果有问题可以在Issues提出
 <br>
 <br>
-#### readme统计
+### readme统计
+<br>
 ![统计](https://count.getloli.com/get/@misaka10843?theme=elbooru)
 
